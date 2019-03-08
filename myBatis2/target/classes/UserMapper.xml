@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.flyex.mapper.UserMapper">
+    <parameterMap id="add" type="user">
+        <parameter property="id"/>
+        <parameter property="username"/>
+        <parameter property="age"/>
+    </parameterMap>
+
+    <resultMap id="userMapper" type="user">
+        <result property="id" column="Id"/>
+        <result column="UserName" property="username"/>
+        <result property="age" column="Age"/>
+    </resultMap>
+
+
+
+    <select id="add" parameterMap="add">
+        insert into user (Id, UserName, Age) values (?,?,?)
+    </select>
+
+    <select id="findUserAll" resultMap="userMapper">
+        select * from user
+    </select>
+
+    <select id="findByName" resultMap="userMapper" parameterType="String">
+        select * from user where UserName = #{UserName}
+    </select>
+
+
+</mapper>

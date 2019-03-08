@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="training">
+    <CLASSES>
+      <root url="jar://D:/jar/activation.jar!/" />
+      <root url="jar://D:/jar/mail.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

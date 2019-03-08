@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop
+	 http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <aop:aspectj-autoproxy />
+    <bean id="customImpl" class="com.flyex.servicesImpl.CustomImpl" />
+
+    <!--<bean id="aspect" class="com.flyex.AspectJ.AspectTest" />-->
+
+    <!--<bean id="afterAspect" class="com.flyex.AspectJ.AfterAspect" />-->
+
+    <!--<bean id="afterReturningAspect" class="com.flyex.AspectJ.AfterRunningAspect" />-->
+
+    <bean id="throwingAspect" class="com.flyex.AspectJ.ThrowingAspect" />
+
+    <bean id="aroundAspect" class="com.flyex.AspectJ.AroundAspect" />
+
+    <!--**********************************************************-->
+
+    <bean id="AAAspect" class="com.flyex.AspectJ.AA" />
+    <aop:config>
+        <aop:aspect id="DoAA" ref="AAAspect">
+            <aop:pointcut id="pointcutafter" expression="execution(* com.flyex.services.Custom.goShopping(..)) " />
+            <aop:after method="after" pointcut-ref="pointcutafter" />
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="ATAspect" class="com.flyex.AspectJ.AT" />
+    <aop:config>
+        <aop:aspect id="DoAT" ref="ATAspect">
+            <aop:pointcut id="pointcutbefore" expression="execution(* com.flyex.services.Custom.goShopping(..))" />
+            <aop:before method="beforeDo" pointcut-ref="pointcutbefore" />
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="ARAspect" class="com.flyex.AspectJ.ARA" />
+    <aop:config>
+        <aop:aspect id="DoARA" ref="ARAspect">
+            <aop:pointcut id="pointcutara" expression="execution(* com.flyex.services.Custom.buy(..))" />
+
+            <aop:after-returning  method="afterRunning" returning="result"
+                                  pointcut-ref="pointcutara" />
+        </aop:aspect>
+    </aop:config>
+</beans>

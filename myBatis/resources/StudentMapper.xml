@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="StudentsMapper">
+    <resultMap type="Students" id="studentResultMap">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="birth" column="birth"/>
+    </resultMap>
+    <!-- 查询学生，根据id   resultMap="studentResultMap"-->
+    <select id="getStudent" parameterType="int" resultType="Students" >
+       SELECT * from students WHERE id = #{id}
+    </select>
+    <!-- 查询学生列表       -->
+    <select id="getStudentALL" resultType="Students" resultMap="studentResultMap">
+         SELECT * from students
+    </select>
+
+    <select id="add" parameterType="Students">
+        insert into students(id,name,birth) values (#{id},#{name},#{birth})
+    </select>
+
+    <select id="update" parameterType="Students">
+        update students set name = #{name},birth = #{birth} where id = #{id}
+    </select>
+
+    <select id="delete" parameterType="int">
+        delete from students where id = #{id}
+    </select>
+</mapper>

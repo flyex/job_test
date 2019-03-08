@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="requestServices" class="com.flyex.services.RequestService">
+        <property name="name" value="小明"></property>
+        <property name="url" value="www.baidu.com"></property>
+    </bean>
+
+    <bean id="before" class="com.flyex.services.BeforeRequest" /> <!--拦截器-->
+    <bean id="after" class="com.flyex.services.AfterRequest" />
+    <bean id="throwsE" class="com.flyex.services.ExceptionPut" /> <!--获取异常后-->
+    <bean id="around" class="com.flyex.services.AroundRequest" />
+
+    <bean id="requestProxy" class="org.springframework.aop.framework.ProxyFactoryBean">  <!--之前操作-->
+        <property name="target" ref="requestServices" />
+        <property name="interceptorNames">
+            <list>
+                <value>before</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="afterProxy" class="org.springframework.aop.framework.ProxyFactoryBean"> <!--操作之后处理-->
+        <property name="target" ref="requestServices" />
+        <property name="interceptorNames">
+            <list>
+                <value>after</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="exceptionProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="requestServices" />
+        <property name="interceptorNames">
+            <list>
+                <value>throwsE</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="aroundProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="requestServices" />
+        <property name="interceptorNames">
+            <list>
+                <value>around</value>
+            </list>
+        </property>
+    </bean>
+
+
+<!--通过方法名拦截-->
+    <bean id="requestMethodCut" class="org.springframework.aop.support.NameMatchMethodPointcut"><!--根据方法拦截返回通知-->
+        <property name="mappedName" value="printName" />
+    </bean>
+    <bean id="requestAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor"><!--规则和方法相连-->
+        <property name="pointcut" ref="requestMethodCut"></property>
+        <property name="advice" ref="before"></property>
+    </bean>
+
+    <!--自动代理1****************************************-->
+    <bean
+        class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="beanNames">
+            <list>
+                <value>*Services</value>
+            </list>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>requestAdvisor</value>
+                <value>requestPatterns</value>
+                <value>requestPatterns2</value>
+                <!--<value>after</value>-->
+            </list>
+        </property>
+    </bean>
+
+
+
+
+    <!--手动代理 无效-->
+    <bean id="advisorProxy" class="org.springframework.aop.framework.ProxyFactoryBean"><!--具体应用-->
+        <property name="target" ref="requestServices" />
+        <property name="interceptorNames" >
+            <list>
+                <value>requestAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--通过表达式拦截-->
+    <bean id="requestPatterns" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="patterns">
+            <list>
+                <value>.*URL.*</value>
+            </list>
+        </property>
+        <property name="advice" ref="before" />
+    </bean>
+    <bean id="requestPatterns2" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="patterns">
+            <list>
+                <value>.*Ex.*</value>
+            </list>
+        </property>
+        <property name="advice" ref="throwsE" />
+    </bean>
+
+
+</beans>
