@@ -24,7 +24,7 @@ public class Test {
         Students students = (Students)o;
        // System.out.println("student's age is:"+students.age);
         f = stuclass.getDeclaredField("name");
-        f.setAccessible(true);
+        //f.setAccessible(true);
         f.set(o,"花花");
 
         f = stuclass.getDeclaredField("numb");

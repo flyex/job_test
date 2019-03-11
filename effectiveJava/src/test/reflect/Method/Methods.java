@@ -14,6 +14,11 @@ public class Methods {
         System.out.println("private && need returned parameter && int param method"+b);
         return b;
     }
+    public void go5(String...strings){
+        for (String s:strings){
+            System.out.print(s);
+        }
+    }
 
 
 }

@@ -19,7 +19,7 @@ public class Test {
         }
         System.out.println("******get 'go1' method and invoking it*******");
         Method method = methodsclass.getDeclaredMethod("go1");
-        Object o = methodsclass.getConstructor().newInstance();
+        Object o = methodsclass.getConstructor().newInstance( );
         method.invoke(o);
 
         System.out.println("*****get method with parameter and returned*******");
@@ -27,5 +27,9 @@ public class Test {
         method.setAccessible(true);
         Object return_param = method.invoke(o,true);
         System.out.println("返回值是："+return_param);
+        System.out.println("*******可变参数类型方法*******");
+        method = methodsclass.getDeclaredMethod("go5", String[].class);
+        method.setAccessible(true);
+        method.invoke(o,new Object[]{new String[]{"1","2","3"}} );
     }
 }
