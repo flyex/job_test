@@ -6,12 +6,12 @@ public class Sub extends Super {
     }
     @Override
     public void eat(){
-        System.out.println("吃"+food);
+        System.out.println("子类吃"+food);
     }
 
     public static void main(String[] args){
-        Sub sub = new Sub();
-        sub.eat();
+        Super s = new Sub(); //test
+        s.eat();
     }
 
 }

@@ -3,5 +3,7 @@ public class Super {
         eat();
     }
 
-    public void eat(){System.out.println("吃");}
+    public void eat() {
+        System.out.println("父类吃");
+    }
 }
