@@ -23,7 +23,8 @@ public class MethodsTest2 {
         Method m = clazz.getMethod(getValue("go1"));
         m.invoke(clazz.getConstructor().newInstance());
 
-        m = clazz.getDeclaredMethod(getValue("go4"));
+        //m = clazz.getDeclaredMethod(getValue("go5"));
+
        // m.invoke(clazz.getConstructor().newInstance(),new Object[]{new String[]{"1","2"}});
 
     }

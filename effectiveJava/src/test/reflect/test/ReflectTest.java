@@ -6,6 +6,8 @@ import java.lang.reflect.Constructor;
 public class ReflectTest {
     public static void main(String[] args) throws Exception{
         Class clazz = Class.forName("test.reflect.test.Student");
+        //ClassLoader e = clazz.getClassLoader();
+        //System.out.println(e.toString());
         System.out.println("获取共有构造方法");
         Constructor[] cons = clazz.getConstructors();
         for(Constructor c:cons){
