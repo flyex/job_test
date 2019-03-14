@@ -1,13 +1,15 @@
 package thread.buyTicket;
+
+
 //三个车站依次卖票  遇到重复的票等待卖完
 public class Station extends Thread {
     public Station(String name){
         super(name);
     }
 
-    static int tick = 20;
-    static Object ob = "aa";
-
+    static int tick = 1000;
+    public Object ob = true;
+    String s = "1";
     @Override
     public void run(){
         while (tick>0){

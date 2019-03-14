@@ -34,9 +34,11 @@ public class HelloWord {
             //getstudentbyId
             Students students = studentsMapper.getStudent(4);
             System.out.println(students);
+
             //getstudentAll
             List<Students> list = studentsMapper.getStudentALL();
             System.out.println(list);
+
             //addstudent
             Students students1 = new Students();
             students1.setId(1);
@@ -46,13 +48,14 @@ public class HelloWord {
             students1.setBirth(date);
             studentsMapper.add(students1);
             session.commit();
+
             //updateStudent
             Students students2 = studentsMapper.getStudent(2);
             students2.setName('j');
             studentsMapper.update(students2);
             session.commit();
             //deleteStudent
-            studentsMapper.delete(1);
+            studentsMapper.delete(4);
             session.commit();
 
             }catch (Exception e) {
