@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lang="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
+
+    <bean id="studentImpl" class="com.flyex.bo.impl.StudentMapperImpl">
+        <property name="studentDao" ref="studentDaoImpl"></property>
+    </bean>
+    <import resource="../database/hibernate.xml"/>
+    <bean id="studentDaoImpl" class="com.flyex.dao.impl.StudentDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+</beans>

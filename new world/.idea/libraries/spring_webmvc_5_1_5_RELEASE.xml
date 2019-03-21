@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="spring-webmvc-5.1.5.RELEASE">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/spring_struts+mybatis/lib/spring-webmvc-5.1.5.RELEASE.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

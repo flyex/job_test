@@ -15,7 +15,7 @@ public class UserDemo {
         Transaction tx = session.beginTransaction();
 
         User user = new User();
-        user.setAge(18);
+        user.setAge(181);
         user.setId(2019);
         user.setUserName("瑞文");
 

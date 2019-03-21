@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sping.mybatis.struts:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/sping_mybatis_struts_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="sping.mybatis.struts/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sping.mybatis.struts" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="struts-1.3.x" />
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="mybatis-spring-1.3.2" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.12" />
+          <element id="library" level="project" name="javax.annotation-api-1.3.2" />
+          <element id="library" level="project" name="junit-4.10" />
+          <element id="library" level="project" name="mybatis-3.4.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

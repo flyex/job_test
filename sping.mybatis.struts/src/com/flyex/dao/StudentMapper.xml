@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.flyex.dao.StudentMapper">
+    <insert id="save" parameterType="Student">
+                insert into students(id, name, birth) VALUES (#{id},#{name},#{birth})
+        </insert>
+    <update id="update" parameterType="Student">
+                update students set name=#{name},birth=#{birth} where id=#{id}
+        </update>
+    <delete id="delete" parameterType="int">
+                delete from students where id=#{id}
+        </delete>
+    <select id="findById" parameterType="int" resultType="Student">
+                select * from students where id=#{id}
+        </select>
+    <select id="findAll" resultType="Student">
+                select * from students
+        </select>
+</mapper>
