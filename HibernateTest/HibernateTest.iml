@@ -4,7 +4,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" value="8e90a479-21ca-40b5-b198-879b3229b268" />
+          <unit-entry name="hibernate.cfg.xml" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/resource/hibernate.cfg.xml" />
@@ -21,5 +21,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Hibernate 5.4.1-5.4.1" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.12" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.26" level="project" />
+    <orderEntry type="library" name="dom4j-2.1.1" level="project" />
+    <orderEntry type="library" name="ehcache-core-2.5.1" level="project" />
+    <orderEntry type="library" name="hibernate-ehcache-5.4.1.Final" level="project" />
   </component>
 </module>

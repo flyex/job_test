@@ -27,7 +27,7 @@ public class DepartmentImplDAO implements DepartmentDAO {
         ResultSet rs = smt.executeQuery(sql);
         List<Department> list = new ArrayList<Department>();
         while(rs.next()){
-            Long deptId = rs.getLong("dept_id");
+            int deptId = rs.getInt("dept_id");
             String deptNo = rs.getString("dept_no");
             String deptName = rs.getString("dept_name");
             Department dept = new Department(deptId,deptNo,deptName);

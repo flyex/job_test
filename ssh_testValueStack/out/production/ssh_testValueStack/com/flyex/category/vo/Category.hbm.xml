@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.flyex.category.vo.Category" table="category" schema="shop">
+        <id name="cid">
+            <column name="cid" sql-type="int(11)"/>
+            <generator class="native"/>
+        </id>
+        <property name="cname">
+            <column name="cname" sql-type="varchar(255)" not-null="true"/>
+        </property>
+
+        <set order-by="csid" name="categorySeconds" lazy="false">
+            <key column="cid"></key>
+            <one-to-many class="com.flyex.categorySecond.vo.CategorySecond"></one-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

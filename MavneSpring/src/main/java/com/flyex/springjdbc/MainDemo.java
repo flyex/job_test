@@ -11,7 +11,7 @@ import java.util.List;
 public class MainDemo {
     public static void main(String[] args) throws Exception{
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-module.xml");
-        DepartmentDAO deptDao = (DepartmentDAO)context.getBean("update");
+        DepartmentDAO deptDao = (DepartmentDAO)context.getBean("departmentDAO");
         List<Department> depts = deptDao.queryDepartment();
         for(Department department:depts){
             System.out.print("dept ID:"+department.getDeptId()+"   ");

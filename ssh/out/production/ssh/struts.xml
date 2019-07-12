@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+
+<struts>
+    <!-- struts的action配置文件 -->
+    <!-- 将action托管给spring -->
+    <constant name="struts.objectFactory" value="spring" />
+
+    <!-- 所有的action都应该放在对应的package下 -->
+    <!--action的class属性不再是具体的类,而是spring配置文件配置的bean id-->
+    <package name="com" namespace="/" extends="struts-default">
+
+        <action name="user_*" class="userAction" method="{1}">
+            <result name="regist">/WEB-INF/regist.jsp</result>
+            <result name="success">/WEB-INF/success.jsp</result>
+            <result name="login">/WEB-INF/login.jsp</result>
+            <result name="loginSuccess">/WEB-INF/index.jsp</result>
+            <result name="quit" type="redirectAction">index</result>
+            <result name="input">/WEB-INF/regist.jsp</result>
+            <result name="show">/WEB-INF/show.jsp</result>
+            <result name="showPage">/WEB-INF/showPage.jsp</result>
+        </action>
+        
+        <action name="user2_*" class="user2Action" method="{1}">
+            <result name="loginSuccess" type="redirectAction">index</result>
+            <result name="login">/WEB-INF/2/login.jsp</result>
+            <result name="quit" type="redirectAction">index</result>
+            <result name="loginPage">/WEB-INF/2/login.jsp</result>
+            <result name="registPage">/WEB-INF/2/regist.jsp</result>
+            <result name="msg">/WEB-INF/2/msg.jsp</result>
+        </action>
+
+        <action name="index" class="indexAction">
+            <result name="index">/WEB-INF/2/index.jsp</result>
+        </action>
+
+    </package>
+    
+
+</struts>

@@ -1,15 +1,15 @@
 package com.flyex.bean;
 
 public class Department {
-    private Long deptId;
+    private int deptId;
     private String deptNo;
     private String deptName;
 
-    public Long getDeptId() {
+    public int getDeptId() {
         return deptId;
     }
 
-    public void setDeptId(Long deptId) {
+    public void setDeptId(int deptId) {
         this.deptId = deptId;
     }
 
@@ -31,7 +31,7 @@ public class Department {
 
     public Department(){}
 
-    public Department(Long deptId,String deptNo,String deptName){
+    public Department(int deptId,String deptNo,String deptName){
         this.deptId=deptId;
         this.deptName=deptName;
         this.deptNo=deptNo;

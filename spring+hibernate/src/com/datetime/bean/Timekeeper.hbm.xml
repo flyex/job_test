@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.datetime.bean.Timekeeper" table="timekeeper" schema="test">
+        <id name="timekeeperId">
+            <column name="Timekeeper_Id" sql-type="varchar(36)" length="36"/>
+        </id>
+        <property name="dateTime">
+            <column name="Date_Time" sql-type="datetime"/>
+        </property>
+        <property name="inOut">
+            <column name="In_Out" sql-type="char(1)" length="1"/>
+        </property>
+    </class>
+</hibernate-mapping>

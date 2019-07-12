@@ -4,6 +4,7 @@ package com.new_fleyex.aspect;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+import org.springframework.stereotype.Component;
 
 @Aspect
 public class Audience {//观众

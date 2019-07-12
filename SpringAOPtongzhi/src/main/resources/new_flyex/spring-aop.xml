@@ -3,21 +3,53 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:aop="http://www.springframework.org/schema/aop"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd ">
 
 
     <context:component-scan base-package="com.new_fleyex"/>
 
-    <aop:aspectj-autoproxy/>
-    <bean class="com.new_fleyex.aspect.Audience" />  <!--声明Audience bean-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+   <!--<bean class="com.new_fleyex.aspect.Audience" />-->   <!--声明Audience bean-->
+    <bean id="sing" class="com.new_fleyex.cut_point_impl.Sing" >
+        <property name="catalog">
+            <list>
+                <value>德玛西亚</value>
+                <value>瑞文</value>
+                <value>js</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--<bean id="countPerform" class="com.new_fleyex.aspect.CountPerform" />--> <!--在xml中配置带参数切面-->
 <!--xml方法声明切面 以及应用到通知-->
     <bean id="aspect_inxml" class="com.new_fleyex.aspect.Aspect_inXML" />
+    <bean id="countperform_xml" class="com.new_fleyex.aspect.CountPerform_xml" />
     <aop:config>
-        <aop:aspect ref="aspect_inxml">
-            <aop:before
-                    pointcut="execution(* com.new_fleyex.cut_point.Performance.perform(..)) "
-                    method="silence" />
-          <aop:before method="seatDown"
+        <!-- <aop:aspect ref="aspect_inxml">
+          aop:before
+                   pointcut="execution(* com.new_fleyex.cut_point.Performance.perform(..)) "
+                   method="silence" />
+         <aop:before method="seatDown"
+                     pointcut="execution(* com.new_fleyex.cut_point.Performance.perform(..))"/>
+       </aop:aspect>-->
+        <!--<aop:aspect ref="aspect_inxml">
+            <aop:around method="aroundPerform"
+                        pointcut="execution(* com.new_fleyex.cut_point.Performance.perform(..))"/>
+        </aop:aspect>-->
+    </aop:config>
+    
+    <aop:config>
+        <aop:pointcut id="performcut"
+                      expression="execution(* com.new_fleyex.cut_point.Performance.perform(int)) and args(j)"/>
+        <aop:aspect ref="countperform_xml">
+
+            <aop:before method="count"
+                        pointcut-ref="performcut"/>
         </aop:aspect>
     </aop:config>
 </beans>

@@ -1,7 +1,6 @@
 package Thread;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /**
  * Created by flyex on 2018/10/17.
@@ -19,5 +18,9 @@ public class Test {
         //service.submit(task);
         //service.submit(task2);
         service.shutdown();
+
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(5,10,200, TimeUnit.MILLISECONDS,
+                new LinkedBlockingQueue<Runnable>());
+         ExecutorService service1 = Executors.newFixedThreadPool(4);
     }
 }

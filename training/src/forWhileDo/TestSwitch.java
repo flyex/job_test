@@ -5,12 +5,13 @@ package forWhileDo;
  */
 public class TestSwitch {
     public static void main(String[] args){
-    int a = 88;
+    int a = 3;
     switch(a){
         case 0:
             System.out.println("6666");
         case 3:
             System.out.println("23232");
+            break;
         case 1:
             System.out.println("11111");
             default:

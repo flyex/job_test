@@ -33,8 +33,9 @@ public class HelloWord {
             StudentsMapper studentsMapper = session.getMapper(StudentsMapper.class);
             //getstudentbyId
             Students students = studentsMapper.getStudent(4);
+            Students students2 = studentsMapper.getStudent(17);
             System.out.println(students);
-
+            /**
             //getstudentAll
             List<Students> list = studentsMapper.getStudentALL();
             System.out.println(list);
@@ -56,7 +57,7 @@ public class HelloWord {
             session.commit();
             //deleteStudent
             studentsMapper.delete(4);
-            session.commit();
+            session.commit();**/
 
             }catch (Exception e) {
                 e.printStackTrace();

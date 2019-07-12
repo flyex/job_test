@@ -11,5 +11,9 @@ public class JiuJiu {
             }
             System.out.println( );
         }
+
+        int k=1;
+        k = k<<1;
+        System.out.println(k);
     }
 }

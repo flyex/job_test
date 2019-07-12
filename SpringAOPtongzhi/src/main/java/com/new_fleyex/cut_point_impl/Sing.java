@@ -2,6 +2,7 @@ package com.new_fleyex.cut_point_impl;
 
 import com.new_fleyex.cut_point.Performance;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+import org.springframework.context.annotation.Bean;
 
 import java.util.ArrayList;
 import java.util.List;

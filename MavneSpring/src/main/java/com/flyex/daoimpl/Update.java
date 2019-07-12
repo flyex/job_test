@@ -17,7 +17,7 @@ public class Update implements DepartmentDAO {
     public List<Department> queryDepartment() throws SQLException {
         Connection connection = dataSource.getConnection();
         String sql2 = "insert into Department (DEPT_ID, DEPT_NAME, DEPT_NO, LOCATION)\n" +
-                "values (14, '666', 'ttt', '234')";
+                "values (15, '666', 'ttt', '234')";
         PreparedStatement statement = connection.prepareStatement(sql2);
         statement.executeUpdate();
 
@@ -27,7 +27,7 @@ public class Update implements DepartmentDAO {
         ResultSet rs = smt.executeQuery(sql);
         List<Department> list = new ArrayList<Department>();
         while(rs.next()){
-            Long deptId = rs.getLong("dept_id");
+            int deptId = rs.getInt("dept_id");
             String deptNo = rs.getString("dept_no");
             String deptName = rs.getString("dept_name");
             Department dept = new Department(deptId,deptNo,deptName);

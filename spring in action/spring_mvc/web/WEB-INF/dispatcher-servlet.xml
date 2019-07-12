@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <context:component-scan base-package="com.flyex.web"/>
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <bean class="com.flyex.web.show_jsp_c_foreach.Items_list2" id="items_list2">
+        <property name="list">
+            <list>
+                <value>德马</value>
+                <value>西亚</value>
+                <value>德马</value>
+                <value>西亚</value>
+                <value>德马</value>
+                <value>西亚</value>
+                <value>德马</value>
+                <value>西亚</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="test" class="com.flyex.web.Test">
+        <property name="x" value="3"/>
+    </bean>
+</beans>

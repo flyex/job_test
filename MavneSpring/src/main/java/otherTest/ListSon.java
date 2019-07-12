@@ -3,7 +3,7 @@ package otherTest;
 public class ListSon {
     private String name;
     private int age;
-
+public ListSon(){}
     public String getName() {
         return name;
     }

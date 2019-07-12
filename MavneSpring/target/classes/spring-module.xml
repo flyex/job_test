@@ -5,4 +5,5 @@
 
     <import resource="database/spring-datasource-mysql.xml" />
     <import resource="dao/spring-department.xml" />
+    <import resource="test.xml"/>
 </beans>

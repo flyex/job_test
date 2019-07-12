@@ -1,0 +1,113 @@
+短路逻辑运算符
+
+当使用与逻辑运算符时，在两个操作数都为true时，结果才为true，但是当得到第一个操作为false时，
+其结果就必定是false，这时候就不会再判断第二个操作了。
+
+条件运算符（?:）
+条件运算符也被称为三元运算符。该运算符有3个操作数，并且需要判断布尔表达式的值。该运算符的主要是决定哪个值应该赋值给变量。
+
+public class Test {
+   public static void main(String[] args){
+      int a , b;
+      a = 10;
+      // 如果 a 等于 1 成立，则设置 b 为 20，否则为 30
+      b = (a == 1) ? 20 : 30;
+      System.out.println( "Value of b is : " +  b );
+ 
+      // 如果 a 等于 10 成立，则设置 b 为 20，否则为 30
+      b = (a == 10) ? 20 : 30;
+      System.out.println( "Value of b is : " + b );
+   }
+}
+
+
+增强for循环
+
+
+public class Test {
+   public static void main(String args[]){
+      int [] numbers = {10, 20, 30, 40, 50};
+ 
+      for(int x : numbers ){
+         System.out.print( x );
+         System.out.print(",");
+      }
+      System.out.print("\n");
+      String [] names ={"James", "Larry", "Tom", "Lacy"};
+      for( String name : names ) {
+         System.out.print( name );
+         System.out.print(",");
+      }
+   }
+}
+
+break终止
+
+
+public class Test {
+   public static void main(String args[]) {
+      int [] numbers = {10, 20, 30, 40, 50};
+ 
+      for(int x : numbers ) {
+         // x 等于 30 时跳出循环
+         if( x == 30 ) {
+            break;
+         }
+         System.out.print( x );
+         System.out.print("\n");
+      }
+   }
+}
+
+
+
+Arrays排序
+Arrays.sort(array1, 2, 7);
+        System.out.println("对数组的第2个到第6个元素进行排序进行排序：Arrays.sort(array,2,7)：");
+
+Arrays.sort(array1);
+        System.out.println("对整个数组进行排序：Arrays.sort(array1)：");
+
+Arrays.fill(array, 5);   7 8 2 3 3 6 12 5 4
+   	System.out.println("填充数组：Arrays.fill(array, 5)：");  5 5 5 5 5 
+
+Arrays.fill(array, 2, 4, 8);
+        System.out.println("将数组的第2和第3个元素赋值为8：Arrays.fill(array, 2, 4, 8)：");
+
+Arrays.equals(array, array1))   判断两个数组是否相等
+
+int[] array2 = array1.clone();  克隆数组
+
+int[] a= {10,20,30,40,50}; 扩充容量
+        a= Arrays.copyOf(a,a.length+1); 10 20 30 40 50 0
+
+BufferReader
+
+public class BrRead {
+    public static void main(String[] args) throws IOException {
+        char a;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("输入字符，输q退出");
+        do{
+            a =(char) br.read();
+            System.out.print(a);
+        }while(a!='q');
+    }
+}
+
+Java io输入输出
+
+
+new 一个file File a = new File("a.txt")
+创建FileOutputStream对象
+FileOutputStream fop = new FileOutputStream(a)
+---- FileOutputStream fop = new FileOutputStream(a)
+创建OutputStreamWriter对象 参数指定编码
+OutputStreamWriter writer = new OutputStreamWriter（fop,"utf-8"）
+
+
+
+
+
+
+

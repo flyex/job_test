@@ -10,4 +10,12 @@
     <bean id="update" class="com.flyex.daoimpl.Update">
         <property name="dataSource" ref="dataSource" />
     </bean>
+
+    <bean id="studentDaoImpl" class="com.flyex.new_springjdbc.dao.impl.StudentDaoImpl">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <bean id="jdbcBean" class="com.flyex.new_springjdbc.dao.jdbcTemplate.JdbcStudentDao">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
 </beans>

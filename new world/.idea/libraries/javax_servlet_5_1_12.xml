@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="javax.servlet-5.1.12">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/spring_struts+mybatis/lib/javax.servlet-5.1.12.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

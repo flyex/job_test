@@ -1,9 +1,6 @@
 package com.flyex.demo.seria;
 
-import com.flyex.bean.User;
-
 import java.io.FileInputStream;
-import java.io.InputStream;
 import java.io.ObjectInputStream;
 
 public class GetDemo {

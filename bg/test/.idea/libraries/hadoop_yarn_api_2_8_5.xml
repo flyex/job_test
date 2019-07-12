@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="hadoop-yarn-api-2.8.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-api-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-applications-distributedshell-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-applications-unmanaged-am-launcher-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-client-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-common-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-registry-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-applicationhistoryservice-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-common-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-nodemanager-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-resourcemanager-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-sharedcachemanager-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-timeline-pluginstorage-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-web-proxy-2.8.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

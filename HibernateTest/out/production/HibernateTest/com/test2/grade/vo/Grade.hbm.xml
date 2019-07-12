@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.test2.grade.vo.Grade" table="grade" schema="test">
+        <id name="gid">
+            <column name="gid" sql-type="int(11)"/>
+            <generator class="native"/>
+        </id>
+        <property name="username">
+            <column name="username" sql-type="varchar(255)"/>
+        </property>
+        <property name="math">
+            <column name="math" sql-type="int(11)" not-null="true"/>
+        </property>
+        <property name="english">
+            <column name="english" sql-type="int(11)" not-null="true"/>
+        </property>
+
+        <one-to-one name="user2" class="com.test2.user2.vo.User2" lazy="false"/>
+    </class>
+</hibernate-mapping>

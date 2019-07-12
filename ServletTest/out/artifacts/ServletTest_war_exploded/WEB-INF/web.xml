@@ -45,4 +45,25 @@
         <servlet-name>welcomeServlet</servlet-name>
         <url-pattern>/welcomeServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>SessionTrack</servlet-name>
+        <servlet-class>SessionTrack</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionTrack</servlet-name>
+        <url-pattern>/SessionTrack</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>testForward_Redirect</servlet-name>
+        <servlet-class>com.flyex.test.TestForward_Redirect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testForward_Redirect</servlet-name>
+        <url-pattern>/123</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>1</session-timeout>
+    </session-config>
 </web-app>

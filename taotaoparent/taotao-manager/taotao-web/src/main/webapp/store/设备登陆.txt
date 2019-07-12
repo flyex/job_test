@@ -1,0 +1,14 @@
+https://10.20.202.195   ISE(准入)
+admin
+!Cisco.1234
+
+https://sslvpn.datayes.com:4430  深信服SSLVPN
+admin
+Tonglian123+_)
+
+
+https://10.20.202.133  深信服行为管理（上海）
+https://10.10.101.18   北京 
+https://10.30.101.18   南京
+admin
+tonglian123+_)

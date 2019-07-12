@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+	    http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="2112qwe"/>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="datasource"/>
+        <!-- 映射mybatis核心配置文件 -->
+        <property name="configLocation" value="mybatis-config.xml"/>
+        <!-- 映射mapper文件 -->
+        <property name="mapperLocations">
+            <list>
+                <value>classpath*:StudentMapper.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 获得sqlSession -->
+    <!--<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+    <bean id="studentMapper" class="com.flyex.mapper.impl.StudentDaoImpl">
+        <property name="sqlSessionTemplate" ref="sqlSession"/>
+    </bean>-->
+
+    <context:component-scan base-package="com.flyex"/>
+
+    <!--<bean id="studentMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="com.flyex.mapper.StudentMapper"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.flyex.mapper"/>
+    </bean>
+
+    <bean id="tranx" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="datasource" />
+    </bean>
+
+    <tx:annotation-driven transaction-manager="tranx" proxy-target-class="true" />
+
+</beans>

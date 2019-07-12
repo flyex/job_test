@@ -5,24 +5,45 @@
 
 <hibernate-configuration>
     <session-factory>
+        <!--hibernate连接数据库-->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/relationtable?characterEncoding=utf8</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">2112qwe</property>
-        
+        <!--hibernate整合Ehcache并开启二级缓存-->
+        <property name="hibernate.cache.use_second_level_cache">true</property>
+        <!--引入Ehcache工具-->
+        <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory
+        </property>
+        <!--hibernate拓展-->
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
-
         <property name="hibernate.hbm2ddl.auto">update</property>
-
         <property name="hibernate.connection.autocommit">true</property>
+        <!-- 设置事务隔离级别-->
+        <property name="hibernate.connection.isolation">4</property>
 
 
+       <!-- <mapping resource="com/flyex/bean/User21.hbm.xml" />
+        <mapping class="com.flyex.bean.User21" />
 
-        <mapping resource="com/flyex/bean/User.hbm.xml" />
-        <mapping resource="com/flyex/bean/User2.hbm.xml" />
-        <mapping class="com.flyex.bean.User" />
-        <mapping class="com.flyex.bean.User2" />
+        <mapping class="com.test.wuzhong.vo.Wuzhong"/>
+        <mapping resource="com/test/wuzhong/vo/Wuzhong.hbm.xml"/>
+        <mapping class="com.test.kelei.vo.Kelei"/>
+        <mapping resource="com/test/kelei/vo/Kelei.hbm.xml"/>
+
+        <mapping resource="com/test2/user2/vo/User2.hbm.xml"/>
+        <mapping class="com.test2.user2.vo.User2"/>
+        <mapping class="com.test2.grade.vo.Grade"/>
+        <mapping resource="com/test2/grade/vo/Grade.hbm.xml"/>
+        -->
+        <mapping class="com.many_to_many.user.bean.User"/>
+        <mapping resource="com/many_to_many/user/bean/User.hbm.xml"/>
+        <mapping resource="com/many_to_many/authority/bean/Authority.hbm.xml"/>
+        <mapping class="com.many_to_many.authority.bean.Authority"/>
+
+        <!--配置需要二级缓存的类-->
+        <class-cache class="com.many_to_many.user.bean.User" usage="read-only"/>
     </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.many_to_many.authority.bean.Authority" table="authority" schema="relationtable">
+        <id name="aId">
+            <column name="a_id" sql-type="int(11)"/>
+            <generator class="native"/>
+        </id>
+        <property name="aName">
+            <column name="a_name" sql-type="varchar(255)"/>
+        </property>
+
+        <set name="users" table="a_u" inverse="true">
+            <key column="a_id"></key>
+            <many-to-many class="com.many_to_many.user.bean.User" column="u_id" />
+        </set>
+    </class>
+</hibernate-mapping>

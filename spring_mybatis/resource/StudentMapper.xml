@@ -1,0 +1,39 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--指向接口，面向接口编程-->
+<mapper namespace="com.flyex.mapper.StudentMapper">
+    <!--<cache></cache>-->
+    <resultMap id="studentResult" type="student">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="age" column="age"/>
+        <result property="birth" column="birth"/>
+        <result property="addressHome" column="address_home"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+    </resultMap>
+
+
+    <select id="findAll" resultMap="studentResult">
+        select * from student
+    </select>
+
+    <update id="update" parameterType="student">
+        update student set name=#{name},age=#{age},birth=#{birth},address_home=#{addressHome}
+        where id=#{id}
+    </update>
+
+    <select id="insert" parameterType="student">
+        insert into student(name, age, birth, address_home) values (#{name},#{age},#{birth},#{addressHome})
+    </select>
+
+    <select id="findById" parameterType="int" resultMap="studentResult">
+        select * from student where id=#{id}
+    </select>
+
+    <delete id="delete" parameterType="int">
+        delete from student where id=#{id}
+    </delete>
+
+</mapper>

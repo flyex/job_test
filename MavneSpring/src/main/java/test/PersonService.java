@@ -6,12 +6,17 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class PersonService {
+
+    private PersonDao personDao ;
+
     @Autowired
-    @Qualifier("personDaoImpTwo")
-    private PersonDao personDao = new PersonDaoImpTwo() ;
+    @Qualifier("")
+    public void setPersonDao(PersonDao personDao){
+        this.personDao = personDao;
+    }
 
     public void savePerson() {
-        this.personDao.savePerson();
+       personDao.savePerson();
     }
 
     public static void main(String[] args){

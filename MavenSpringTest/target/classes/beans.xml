@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-   <bean id="springHelloWorld" class="SpringHelloWorld"></bean>
-    <bean id="strutsHelloWorld" class="StrutsHelloWorld"></bean>
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+	   http://www.springframework.org/schema/context/spring-context-2.5.xsd
+        ">
+    <!--<context:annotation-config></context:annotation-config>-->
 
-    <bean id="helloWorldService" class="HelloWorldService">
-        <property name="helloWorld" ref="springHelloWorld"></property>
-    </bean>
+    <!--<bean id="springHelloWorld" class="com.flyex.SpringHelloWorld"></bean>
+    <bean id="strutsHelloWorld" class="com.flyex.StrutsHelloWorld"></bean>
+    <bean id="helloWorldService" class="com.flyex.HelloWorldService"></bean>-->
+    <context:component-scan base-package="com.flyex"/>
 
 </beans>
