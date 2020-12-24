@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="myfunction" />
+      <artifact name="hive_pj:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bdf11a3-5590-4346-b68a-4fd5615adb18" name="Default Changelist" comment="" />
+    <list default="true" id="3bdf11a3-5590-4346-b68a-4fd5615adb18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MVN_BG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springMVC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/MVN_BG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/text/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/text/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/flyex/myhive/Myfunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/flyex/myhive/Myfunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/flyex/hdfs/HdfsClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/com/flyex/hdfs/HdfsClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTest/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopTest/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMVC/springMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springMVC/springMVC.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,36 +37,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-53233595">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="149" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/flyex/myhive/Myfunction.java">
+        <entry file="file://$PROJECT_DIR$/src/com/flyex/myhive/BaseInfoUDF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="345">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,18 +64,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/flyex/myhive/Myfunction.java" />
+        <option value="$PROJECT_DIR$/src/com/flyex/myhive/BaseInfoUDF.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -79,12 +84,19 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="213" />
     <option name="y" value="198" />
     <option name="width" value="1260" />
     <option name="height" value="843" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <sortByType ProjectPane="true" />
@@ -98,6 +110,32 @@
               <item name="hive_pj" type="b2602c69:ProjectViewProjectNode" />
               <item name="hive_pj" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hive_pj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_pj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hive_pj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_pj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hive_pj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_pj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hive_pj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive_pj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="myhive" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -107,6 +145,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562807550391" />
@@ -116,10 +155,11 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32896066" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project_java\job_test\bg\hive_pj\lib" />
       <recent name="D:\project\bg\hive_pj\lib" />
     </key>
   </component>
@@ -135,6 +175,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="BaseInfoUDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.myhive.BaseInfoUDF" />
+      <module name="hive_pj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.myhive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BaseInfoUDF" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -147,16 +207,18 @@
       <updated>1562738968415</updated>
       <workItem from="1562738974460" duration="7415000" />
       <workItem from="1562839202383" duration="611000" />
+      <workItem from="1587364108892" duration="50000" />
+      <workItem from="1587378658396" duration="2275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8026000" />
+    <option name="totallyTimeSpent" value="10351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23201293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -165,16 +227,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19858156" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -184,13 +247,11 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32983023" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/hive-exec-1.2.1.jar!/org/apache/hadoop/hive/ql/exec/UDF.class">
@@ -202,8 +263,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/flyex/myhive/Myfunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/flyex/myhive/BaseInfoUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -212,8 +283,15 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>myfunction</last-edited>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>hive_pj:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -265,7 +343,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.32896066" />
                 <option value="0.6" />
               </list>
             </option>

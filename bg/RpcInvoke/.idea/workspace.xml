@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1d75496-849a-4a99-a1ce-66c6725f0df1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MVN_BG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springMVC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/MVN_BG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/text/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/text/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendMapper2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendMapper2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendReducer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendReducer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderBean2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderBean2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderGroupComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderGroupComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmiiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmiiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountReduce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountReduce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnSubmitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnSubmitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/PageCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/PageCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TextBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TextBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowSubmitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowSubmitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/ProvincePartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/ProvincePartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/CompSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/CompSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Mp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Mp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Rd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Rd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/FlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/.idea/artifacts/myfunction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/hive_pj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/hive_pj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/artifacts/hive_pj_jar/myfunction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/artifacts/myfunction/myfunction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/production/hive_pj/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/production/hive_pj/com/flyex/myhive/Myfunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/src/com/flyex/myhive/Myfunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/flyex/hdfs/HdfsClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/com/flyex/hdfs/HdfsClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTest/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopTest/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMVC/springMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springMVC/springMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/rpc/Cli.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/rpc/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/io/TestIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/rpc/CliImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/rpc/Cli.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/rpc/CliImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/rpc/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/io/TestIO.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tool\apache-maven-3.6.1\repo" />
+        <option name="userSettingsFile" value="D:\tool\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="213" />
+    <option name="y" value="198" />
+    <option name="width" value="1260" />
+    <option name="height" value="843" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RpcInvoke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RpcInvoke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RpcInvoke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RpcInvoke" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RpcInvoke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RpcInvoke" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RpcInvoke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RpcInvoke" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RpcInvoke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RpcInvoke" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RpcInvoke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RpcInvoke" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.io.TestIO" />
+      <module name="RpcInvoke" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestIO" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1d75496-849a-4a99-a1ce-66c6725f0df1" name="Default Changelist" comment="" />
+      <created>1592362388607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592362388607</updated>
+      <workItem from="1592362389963" duration="3655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3655000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.15844786" />
+      <window_info id="Structure" order="1" sideWeight="0.5035461" side_tool="true" weight="0.24737267" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17021276" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.1/hadoop-mapreduce-client-core-2.8.1.jar!/org/apache/hadoop/mapreduce/protocol/ClientProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.1/hadoop-mapreduce-client-core-2.8.1-sources.jar!/org/apache/hadoop/mapreduce/protocol/ClientProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1.jar!/org/apache/hadoop/ipc/VersionedProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/rpc/CliImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1-sources.jar!/org/apache/hadoop/ipc/ProtocolSignature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="216" column="23" selection-start-line="216" selection-start-column="23" selection-end-line="216" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1-sources.jar!/org/apache/hadoop/ipc/VersionedProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/rpc/Cli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/rpc/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/io/TestIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

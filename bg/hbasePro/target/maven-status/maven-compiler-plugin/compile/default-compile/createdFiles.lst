@@ -1,0 +1,6 @@
+com\flyex\baseTest\HbaseDDL.class
+com\flyex\baseTest\PreSplitRegion.class
+com\flyex\baseTest\HbaseDML.class
+com\flyex\coprocessor\CreateTbWithCo.class
+com\flyex\coprocessor\CoprocessorObserver.class
+com\flyex\baseTest\Test.class

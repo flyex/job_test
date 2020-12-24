@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d751f52-92c8-4438-800e-00c3053fca3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MVN_BG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springMVC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/MVN_BG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/src/main/java/com/flyex/text/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/src/main/java/com/flyex/text/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendMapper2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendMapper2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendReducer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendReducer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/FriendHave2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/friend/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/OrderBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/OrderBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderBean2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderBean2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderGroupComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderGroupComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/index/IndexStepTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/joinOU/OUBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/joinOU/OUBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/joinOU/OUJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/joinOU/OUJoin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmiiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmiiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/WordcountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/WordcountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/WordcountReduce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/mapreduce/WordcountReduce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/PageCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/PageCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnSubmitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnSubmitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/PageCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/PageCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/TestComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/TestComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/TestPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/TestPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/TextBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/text/TextBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/FlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/FlowSubmitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/FlowSubmitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/ProvincePartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/flyex/totalFlow/ProvincePartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/CompSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/CompSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/ComputerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/ComputerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/ComputerReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/ComputerReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/Sort$Mp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/Sort$Mp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/Sort$Rd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/Sort$Rd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/computer/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/flow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/flow/FlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/flow/Total$FlowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/flow/Total$FlowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/flow/Total$FlowReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/flow/Total$FlowReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/flow/Total.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/flow/Total.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Baidu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Baidu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVN_BG/target/classes/com/my/test_baiducount/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/.idea/artifacts/myfunction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hive_pj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../hive_pj/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/hive_pj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../hive_pj/hive_pj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/out/artifacts/hive_pj_jar/myfunction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/out/artifacts/myfunction/myfunction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/out/production/hive_pj/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/out/production/hive_pj/com/flyex/myhive/Myfunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hive_pj/src/com/flyex/myhive/Myfunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/src/com/flyex/hdfs/HdfsClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/src/com/flyex/hdfs/HdfsClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/.idea/libraries/jedis_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/out/production/io/IOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/out/production/io/IOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/out/production/io/RedisDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/out/production/io/RedisDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/out/production/io/com/flyex/demo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/out/production/io/com/flyex/demo/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/out/production/io/com/flyex/object/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/out/production/io/com/flyex/object/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/out/production/io/com/flyex/util/ObjectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/out/production/io/com/flyex/util/ObjectUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/src/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/src/IOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../io/src/RedisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../io/src/RedisDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../shopTest/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../shopTest/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../shopTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../shopTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sping.mybatis.struts/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../sping.mybatis.struts/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sping.mybatis.struts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../sping.mybatis.struts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springMVC/springMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../springMVC/springMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_mybatis/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_mybatis/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_mybatis/.idea/dataSources/7d6bf57f-3682-4609-b6cb-6af8126a88e7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_mybatis/.idea/dataSources/7d6bf57f-3682-4609-b6cb-6af8126a88e7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_mybatis/.idea/dataSources/9ca7640b-c015-49f9-81c0-7d7d27d2cd7e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_mybatis/.idea/dataSources/9ca7640b-c015-49f9-81c0-7d7d27d2cd7e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../spring_mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../spring_mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotaoparent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotaoparent/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotaoparent/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotaoparent/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotaoparent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotaoparent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotaoparent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotaoparent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotaoparent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotaoparent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotaoparent/taotao-manager/taotao-web/src/main/java/com/flyex/controller/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotaoparent/taotao-manager/taotao-web/src/main/java/com/flyex/controller/ErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="NewSparkStreaming" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-414">
+              <caret line="48" column="21" selection-start-line="47" selection-start-column="37" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/ShoppingUserStartFeature.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
+              <folding>
+                <element signature="e#28#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/RddTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/utils/JedisUtils.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#34#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/utils/TimeUtils.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="e#34#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/TimeTransform.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="e#33#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/PreProcessing.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/TestDBs.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding>
+                <element signature="e#28#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/KafkaProducer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="23" column="498" selection-start-line="23" selection-start-column="498" selection-end-line="23" selection-end-column="536" />
+              <folding>
+                <element signature="e#28#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/ShoppingUserCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/TestDBs.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/JedisUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/KafkaProducer.scala" />
+        <option value="$PROJECT_DIR$/src/main/resource/application.conf" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/PreProcessing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/TimeTransform.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/utils/TimeTransfrom.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/utils/JedisUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/RddTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/ShoppingUserStartFeature.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tool\apache-maven-3.6.1\repo" />
+        <option name="userSettingsFile" value="D:\tool\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1938" />
+    <option name="height" value="1029" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="newSpark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="newSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewSparkStreaming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewSparkStreaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="newSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31529412" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ShoppingUserStartFeature">
+    <configuration name="PreProcessing" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.newSpark.test.PreProcessing" />
+      <module name="NewSparkStreaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.newSpark.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RddTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.newSpark.test.RddTest" />
+      <module name="NewSparkStreaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.newSpark.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingUserStartFeature" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.newSpark.ShoppingUserStartFeature" />
+      <module name="NewSparkStreaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.newSpark.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDBs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.newSpark.TestDBs" />
+      <module name="NewSparkStreaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.newSpark.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeTransform" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.newSpark.test.TimeTransform" />
+      <module name="NewSparkStreaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.newSpark.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShoppingUserStartFeature" />
+        <item itemvalue="Application.RddTest" />
+        <item itemvalue="Application.TimeTransform" />
+        <item itemvalue="Application.PreProcessing" />
+        <item itemvalue="Application.TestDBs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d751f52-92c8-4438-800e-00c3053fca3f" name="Default Changelist" comment="" />
+      <created>1608009787897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608009787897</updated>
+      <workItem from="1608009791475" duration="16281000" />
+      <workItem from="1608185057243" duration="486000" />
+      <workItem from="1608185553039" duration="42206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58973000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496139" visible="true" weight="0.19078416" />
+      <window_info id="Structure" order="1" sideWeight="0.503861" side_tool="true" weight="0.18027486" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5035461" side_tool="true" weight="0.15683104" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.34219858" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7783688" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.1/spark-core_2.11-2.4.1.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.1/spark-core_2.11-2.4.1-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="178" column="21" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming_2.11/2.4.1/spark-streaming_2.11-2.4.1.jar!/org/apache/spark/streaming/StreamingContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.4.1/spark-streaming-kafka-0-10_2.11-2.4.1.jar!/org/apache/spark/streaming/kafka010/KafkaUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.4.1/spark-streaming-kafka-0-10_2.11-2.4.1-sources.jar!/org/apache/spark/streaming/kafka010/ConsumerStrategy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8740">
+          <caret line="405" column="19" selection-start-line="405" selection-start-column="19" selection-end-line="405" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.4.1/spark-streaming-kafka-0-10_2.11-2.4.1-sources.jar!/org/apache/spark/streaming/kafka010/KafkaUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2599">
+          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.3.1/spark-streaming-kafka-0-10_2.11-2.3.1.jar!/org/apache/spark/streaming/kafka010/ConsumerStrategies.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.3.1/spark-streaming-kafka-0-10_2.11-2.3.1-sources.jar!/org/apache/spark/streaming/kafka010/ConsumerStrategy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="406" column="47" selection-start-line="406" selection-start-column="6" selection-end-line="406" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.2.2/kafka-clients-0.10.2.2.jar!/org/apache/kafka/common/Cluster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.10.2.2/kafka_2.11-0.10.2.2.jar!/kafka/admin/AdminClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.2.2/kafka-clients-0.10.2.2-sources.jar!/org/apache/kafka/common/Cluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2305">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.10.2.2/kafka_2.11-0.10.2.2-sources.jar!/kafka/admin/AdminClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2116">
+          <caret line="124" column="6" selection-start-line="124" selection-start-column="6" selection-end-line="124" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.0.1/kafka-clients-0.10.0.1.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.0.1/kafka-clients-0.10.0.1-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="55" column="92" lean-forward="true" selection-start-line="55" selection-start-column="92" selection-end-line="55" selection-end-column="92" />
+          <folding>
+            <element signature="e#4026#4027#0" expanded="true" />
+            <element signature="e#4077#4078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/JedisUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/KafkaProducer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="23" column="498" selection-start-line="23" selection-start-column="498" selection-end-line="23" selection-end-column="536" />
+          <folding>
+            <element signature="e#28#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="48" column="21" selection-start-line="47" selection-start-column="37" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/TestDBs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#28#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/utils/TimeUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#34#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/TimeTransform.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="e#33#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/PreProcessing.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/utils/JedisUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#34#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/test/RddTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/newSpark/ShoppingUserStartFeature.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="e#28#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NewSparkStreaming</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.carrotsearch:hppc:0.7.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

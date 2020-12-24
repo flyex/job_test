@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8c1a0c2-e991-4bbe-9c3a-772764a7cd39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MVN_BG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springMVC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/MVN_BG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/text/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/text/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendMapper2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendMapper2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendReducer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendReducer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderBean2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderBean2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderGroupComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderGroupComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmiiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmiiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountReduce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountReduce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnSubmitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnSubmitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/PageCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/PageCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TextBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TextBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowSubmitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowSubmitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/ProvincePartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/ProvincePartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/CompSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/CompSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Mp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Mp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Rd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Rd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/FlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/.idea/artifacts/myfunction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/hive_pj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/hive_pj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/artifacts/hive_pj_jar/myfunction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/artifacts/myfunction/myfunction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/production/hive_pj/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/production/hive_pj/com/flyex/myhive/Myfunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/src/com/flyex/myhive/Myfunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/flyex/hdfs/HdfsClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/com/flyex/hdfs/HdfsClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/.idea/libraries/jedis_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/IOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/IOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/RedisDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/RedisDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/demo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/demo/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/object/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/object/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/util/ObjectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/util/ObjectUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/src/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/src/IOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/src/RedisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/src/RedisDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTest/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopTest/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sping.mybatis.struts/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sping.mybatis.struts/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sping.mybatis.struts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sping.mybatis.struts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMVC/springMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springMVC/springMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources/7d6bf57f-3682-4609-b6cb-6af8126a88e7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources/7d6bf57f-3682-4609-b6cb-6af8126a88e7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources/9ca7640b-c015-49f9-81c0-7d7d27d2cd7e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources/9ca7640b-c015-49f9-81c0-7d7d27d2cd7e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/KafkaPro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/kafkaModule/KafkaPartitioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/kafkaModule/KafkaInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/threadPool/ThreadsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/ProducerTransV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>handleInitProducerIdReques</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/kafkaTrans/ProducerTrans.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/kafkaTrans/ProducerTransV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/nouse/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/ProducerTransV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/threadPool/ThreadsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/kafkaModule/KafkaInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/KafkaPro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/kafkaModule/KafkaPartitioner.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tool\apache-maven-3.6.1\repo" />
+        <option name="userSettingsFile" value="D:\tool\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="y" value="1" />
+    <option name="width" value="1938" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="kafkaTrans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="kafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="kafkaModule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="threadPool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KafkaTrans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KafkaTrans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="kafkaTrans" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../io" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.62" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.flyex.kafkaTrans" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ProducerTransV2">
+    <configuration name="KafkaPro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.kafkaTrans.KafkaPro" />
+      <module name="KafkaTrans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.kafkaTrans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTransV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.kafkaTrans.ProducerTransV2" />
+      <module name="KafkaTrans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.kafkaTrans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.nouse.Test" />
+      <module name="KafkaTrans" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.nouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProducerTransV2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.KafkaPro" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8c1a0c2-e991-4bbe-9c3a-772764a7cd39" name="Default Changelist" comment="" />
+      <created>1599103517038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599103517038</updated>
+      <workItem from="1599103520557" duration="14304000" />
+      <workItem from="1600997317064" duration="3477000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17781000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="1" width="1292" height="685" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936143" visible="true" weight="0.22123177" />
+      <window_info id="Structure" order="1" sideWeight="0.50063854" side_tool="true" weight="0.12899786" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.05319149" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0.jar!/org/apache/kafka/clients/producer/KafkaProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="325" column="34" selection-start-line="325" selection-start-column="34" selection-end-line="325" selection-end-column="34" />
+          <folding>
+            <element signature="e#17844#17845#0" expanded="true" />
+            <element signature="e#17900#17901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="688" column="34" selection-start-line="688" selection-start-column="34" selection-end-line="688" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/kafkaTrans/ProducerTrans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="e#30#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.12/2.0.0/kafka_2.12-2.0.0.jar!/kafka/server/KafkaApis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/nouse/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/threadPool/ThreadsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/ProducerTransV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/kafkaModule/KafkaInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/KafkaPro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/kafkaTrans/kafkaModule/KafkaPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.13.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>KafkaTrans</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.62" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -13,29 +13,40 @@ public class HdfsClientDemo {
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();
 
-        conf.set("dfs.replication","2");
-        conf.set("dfs.blocksize","64m");
+//        conf.addResource("core-site.xml");
+//        conf.addResource("hdfs-site.xml");
 
-        FileSystem fs = FileSystem.get(new URI("hdfs://hdp-01:9000/"),conf,"root");
+//        conf.set("dfs.replication","2");
+//        conf.set("dfs.blocksize","64m");
 
-        fs.copyFromLocalFile(new Path("D:/BaiduNetdiskDownload/javaweb.zip"),new Path("/aaa"));
+        FileSystem fs = FileSystem.get(new URI("hdfs://ns-ha"),conf,"root");
 
-        fs.close();
+        //fs.copyFromLocalFile(new Path("D:/ip.txt"),new Path("/aaa"));
+        //fs.delete(new Path("/aaa"),false);
+        int i = 1;
+
+        while (true){
+            fs.mkdirs(new Path("/noUse/"+i));
+            Thread.sleep(2000);
+            i += 1;
+        }
+
+        //fs.close();
     }
     FileSystem fs = null;
     @Before
     public void init() throws Exception{
         Configuration conf = new Configuration();
 
-        conf.set("dfs.replication","2");
-        conf.set("dfs.blocksize","64m");
+//        conf.set("dfs.replication","2");
+//        conf.set("dfs.blocksize","64m");
 
-        fs = FileSystem.get(new URI("hdfs://hdp-01:9000/"),conf,"root");
+        fs = FileSystem.get(new URI("hdfs://ns-ha"),conf,"root");
     }
 
     @Test
     public void createDir() throws Exception{
-        fs.mkdirs(new Path("/xx/yy/zz/aa"));
+        fs.mkdirs(new Path("/noUse"));
         fs.close();
     }
 

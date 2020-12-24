@@ -1,6 +1,5 @@
 package com.flyex.text;
 
-import com.flyex.friend.FriendHave2;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
@@ -10,9 +9,9 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import org.apache.hadoop.yarn.webapp.hamlet.Hamlet;
 
 import java.io.IOException;
+import java.util.LinkedList;
 
 public class Text {
     public static class TMapper extends Mapper<LongWritable, org.apache.hadoop.io.Text,TextBean, NullWritable>{
@@ -39,6 +38,8 @@ public class Text {
     public static void main(String[] args) throws Exception{
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf);
+
+        new LinkedList<>();
 
         job.setJarByClass(Text.class);
         job.setMapperClass(TMapper.class);

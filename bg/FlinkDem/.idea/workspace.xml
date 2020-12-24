@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92d5a6b7-9680-41de-bfdf-8b06a4098dc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MVN_BG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springMVC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/MVN_BG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/mapreduce/JobSubmitterWinLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/text/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/src/main/java/com/flyex/text/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave$FriendReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendMapper2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendMapper2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendReducer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2$FriendReducer2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/FriendHave2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/friend/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn$OrderReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/OrderTopn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn$Order2Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/Order2Topn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderBean2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderBean2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderGroupComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderGroupComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/groupOrder/nb/OrderPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne$IndexSOReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo$IndexSTReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/index/IndexStepTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin$OUReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/joinOU/OUJoin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmiiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmiiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterLinuxToYarn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/JobSubmitterWinLocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountReduce.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/mapreduce/WordcountReduce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnSubmitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/PageTopnSubmitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/PageCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/PageCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1$SortStep1Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Mapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2$SortStep2Reducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/pageTopn/sort/SortStep2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TestPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text$TReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TextBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/text/TextBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowCountReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowSubmitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/FlowSubmitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/ProvincePartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/flyex/totalFlow/ProvincePartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/CompSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/CompSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/ComputerReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Mp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Mp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Rd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort$Rd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/computer/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/FlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total$FlowReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/flow/Total.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiPartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiPartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu$BaiduReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Baidu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MVN_BG/target/classes/com/my/test_baiducount/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/.idea/artifacts/myfunction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/hive_pj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hive_pj/hive_pj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/artifacts/hive_pj_jar/myfunction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/artifacts/myfunction/myfunction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/production/hive_pj/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/out/production/hive_pj/com/flyex/myhive/Myfunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hive_pj/src/com/flyex/myhive/Myfunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/com/flyex/hdfs/HdfsClientDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/com/flyex/hdfs/HdfsClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/com/flyex/hdfs/HdfsClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/.idea/libraries/jedis_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/IOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/IOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/RedisDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/RedisDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/demo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/demo/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/object/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/object/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/util/ObjectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/out/production/io/com/flyex/util/ObjectUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/src/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/src/IOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../io/src/RedisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../io/src/RedisDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTest/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopTest/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shopTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shopTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sping.mybatis.struts/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sping.mybatis.struts/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sping.mybatis.struts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sping.mybatis.struts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMVC/springMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springMVC/springMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources/7d6bf57f-3682-4609-b6cb-6af8126a88e7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources/7d6bf57f-3682-4609-b6cb-6af8126a88e7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources/9ca7640b-c015-49f9-81c0-7d7d27d2cd7e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/dataSources/9ca7640b-c015-49f9-81c0-7d7d27d2cd7e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/split_select/SplitTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+              <folding>
+                <element signature="e#42#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/ReflectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/MainReflect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/ThreadJoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/InnerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/CollectionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="483" column="5" lean-forward="true" selection-start-line="483" selection-start-column="5" selection-end-line="483" selection-end-column="5" />
+              <folding>
+                <element signature="e#4931#4932#0" expanded="true" />
+                <element signature="e#4970#4971#0" expanded="true" />
+                <element signature="e#17490#17491#0" expanded="true" />
+                <element signature="e#17525#17526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/test/StateManager.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+              <folding>
+                <element signature="e#24#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/ssink/SSinkToRedis.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="55" />
+              <folding>
+                <element signature="e#35#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/scalaCustormSource/SNoParalleSource.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>f0</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamApi/ApiUnion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamApi/ApiSplit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamPartition/MyPartition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamPartition/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/custormSource/UseMyParallelSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamPartition/PWithMyPartition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/sink/SinkToRedis.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/scalaCustormSource/SNoParalleSource.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/scalaCustormSource/UseSNoParalleSource.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/scalaCustormSource/SParalleSource.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/streamApi/ApiUnion.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/scalaCustormSource/SNoParalleSource.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/streamApi/ApiSplit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/streamApi/ApiConnect.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/streamApi/SApiSplit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/streamApi/SParatition.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/streamApi/SAPiPartition.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/ssink/SSinkToRedis.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiFlatmap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiMapPartition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiUnion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiDistinct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiKindOFJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/batch/ssetApi/SApiJoin.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/batch/ssetApi/SApiHashRangePartition.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiBroadcast.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/batch/ssetApi/SApiBroadcast.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiAccumulator.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/batch/ssetApi/SApiAccumulator.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiDisCache.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/batch/ssetApi/SApiDisCache.scala" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/SocketWindowWordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/SocketWindowCheckPointWordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamPartition/DateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/ApiIncAgg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/APiWindwosOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/APiFullCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/flinkDemo/TestNoUse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/APiFullCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/waterMark/WindowsWatermark1.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamApi/ApiConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/test/StateManager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/flyex/streaming/split_select/SplitTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/ReflectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/MainReflect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/ThreadJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/InnerClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/CollectionsTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tool\apache-maven-3.6.1\repo" />
+        <option name="userSettingsFile" value="D:\tool\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FlinkDem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FlinkDem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-12" />
+    <option name="width" value="1938" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="batch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="streamApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="waterMark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="testNoUse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="split_select" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkDem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkDem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flyex" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="ssink" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31529412" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.flyex.streaming" />
+      <recent name="com.flyex" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.flyex.streaming" />
+      <recent name="com.flyex.streaming.streamApi" />
+      <recent name="com.flyex.streaming.scalaCustormSource" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CollectionsTest">
+    <configuration name="CollectionsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.testNoUse.CollectionsTest" />
+      <module name="FlinkDem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.testNoUse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.testNoUse.InnerClass" />
+      <module name="FlinkDem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.testNoUse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.testNoUse.MainReflect" />
+      <module name="FlinkDem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.testNoUse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.testNoUse.ReflectTest" />
+      <module name="FlinkDem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.testNoUse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flyex.testNoUse.ThreadJoin" />
+      <module name="FlinkDem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyex.testNoUse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CollectionsTest" />
+        <item itemvalue="Application.InnerClass" />
+        <item itemvalue="Application.ThreadJoin" />
+        <item itemvalue="Application.MainReflect" />
+        <item itemvalue="Application.ReflectTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92d5a6b7-9680-41de-bfdf-8b06a4098dc5" name="Default Changelist" comment="" />
+      <created>1577411627513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577411627513</updated>
+      <workItem from="1577411630825" duration="7495000" />
+      <workItem from="1577503378538" duration="90053000" />
+      <workItem from="1578618136378" duration="143000" />
+      <workItem from="1578618441487" duration="26848000" />
+      <workItem from="1579242996306" duration="7572000" />
+      <workItem from="1591682547305" duration="10976000" />
+      <workItem from="1591750491453" duration="11789000" />
+      <workItem from="1591939389957" duration="1205000" />
+      <workItem from="1603328898265" duration="16113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="172194000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.2700081" />
+      <window_info id="Structure" order="1" sideWeight="0.5030303" side_tool="true" weight="0.2700081" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32624114" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.75" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.40248227" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.111560225" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/api/datastream/SingleOutputStreamOperator.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiBroadcast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/batch/ssetApi/SApiBroadcast.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <element signature="e#33#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/batch/ssetApi/SApiAccumulator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="e#33#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-statebackend-rocksdb_2.11/1.6.1/flink-statebackend-rocksdb_2.11-1.6.1.jar!/org/apache/flink/contrib/streaming/state/RocksDBStateBackend.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-statebackend-rocksdb_2.11/1.6.1/flink-statebackend-rocksdb_2.11-1.6.1-sources.jar!/org/apache/flink/contrib/streaming/state/RocksDBStateBackend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="152" column="11" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1.jar!/org/apache/flink/streaming/api/functions/windowing/ProcessWindowFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/api/datastream/WindowedStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="1053" column="63" selection-start-line="1053" selection-start-column="63" selection-end-line="1053" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/api/functions/windowing/RichProcessWindowFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamPartition/DateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/SocketWindowWordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlinkDem.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/batch/setApi/ApiDisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/api/functions/windowing/InternalProcessApplyWindowContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/APiWindwosOperator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/SocketWindowCheckPointWordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/ApiIncAgg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/APiFullCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/flinkDemo/TestNoUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/api/functions/windowing/ProcessWindowFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/batch/BatchWordCountJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/batch/ssetApi/SApiDisCache.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="35" selection-start-line="35" selection-end-line="36" />
+          <folding>
+            <element signature="e#33#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/waterMark/WindowsWatermark1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/SocketStreamingWinCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/scalaCustormSource/SParalleSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/util/AbstractMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.6.1/flink-streaming-scala_2.11-1.6.1.jar!/org/apache/flink/streaming/api/scala/DataStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2162">
+          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.6.1/flink-streaming-scala_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="916" column="24" selection-start-line="916" selection-start-column="19" selection-end-line="916" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamApi/ApiSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/streamApi/SApiSplit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.1/flink-streaming-java_2.11-1.6.1-sources.jar!/org/apache/flink/streaming/api/collector/selector/OutputSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="380" column="18" selection-start-line="380" selection-start-column="18" selection-end-line="380" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/streaming/streamApi/ApiConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/scalaCustormSource/UseSNoParalleSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <marker date="1591752088725" expanded="true" signature="1234:1267" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/ssink/SSinkToRedis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="e#35#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/scalaCustormSource/SNoParalleSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/test/StateManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/flyex/streaming/split_select/SplitTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="e#42#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/ReflectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="99" column="43" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="276" column="11" selection-start-line="276" selection-start-column="11" selection-end-line="276" selection-end-column="11" />
+          <folding>
+            <element signature="e#6812#6813#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="888" column="44" selection-start-line="888" selection-start-column="44" selection-end-line="888" selection-end-column="44" />
+          <folding>
+            <element signature="e#34990#34991#0" expanded="true" />
+            <element signature="e#35017#35018#0" expanded="true" />
+            <element signature="e#35291#35292#0" expanded="true" />
+            <element signature="e#35374#35375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="483" column="5" lean-forward="true" selection-start-line="483" selection-start-column="5" selection-end-line="483" selection-end-column="5" />
+          <folding>
+            <element signature="e#4931#4932#0" expanded="true" />
+            <element signature="e#4970#4971#0" expanded="true" />
+            <element signature="e#17490#17491#0" expanded="true" />
+            <element signature="e#17525#17526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/MainReflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="1599" column="9" selection-start-line="1599" selection-start-column="9" selection-end-line="1599" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="664" column="17" selection-start-line="664" selection-start-column="17" selection-end-line="664" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/ThreadJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/InnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flyex/testNoUse/CollectionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.81</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FlinkDem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.esotericsoftware.kryo:kryo:2.24.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31529412" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+public class Test {
+
+    public static void main(String[] args) {
+
+        for (;;){
+            System.out.println("gg");
+            for (int i = 0; i < 10; i++) {
+                System.out.println("mm");
+            }
+            break;
+        }
+    }
+}

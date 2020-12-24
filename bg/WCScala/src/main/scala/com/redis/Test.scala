@@ -1,0 +1,46 @@
+package com.redis
+
+import java.{lang, util}
+
+import redis.clients.jedis.{Jedis, JedisPool, JedisPoolConfig}
+
+object Test {
+
+  val config = new JedisPoolConfig()
+  //最大连接数
+  config.setMaxTotal(20)
+  //最大空闲连接数
+  config.setMaxIdle(10)
+  //当调用borrow Object方法时，是否进行有效性检查 -->
+  config.setTestOnBorrow(true)
+  //10000代表连接超时时间
+  val pool = new JedisPool(config,"192.168.66.134",6379,10000,"2112qwe")
+
+  def getConnection() : Jedis = {
+    pool.getResource
+  }
+
+//  def main(args: Array[String]): Unit = {
+//
+//    val conn: Jedis = Test.getConnection()
+//
+////    val r = conn.get("amount")
+////    println(r)
+//    conn.incr("amount")
+//    val long = conn.incrBy("amount",20)
+//
+//    println(long)
+//
+//  }
+  def main(args: Array[String]): Unit = {
+
+  val conn = Test.getConnection()
+
+  val k: util.Set[String] = conn.keys("*")
+  import scala.collection.JavaConversions._
+  for (k2 <- k){
+    println(k2 + ":" + conn.get(k2))
+  }
+
+  }
+}

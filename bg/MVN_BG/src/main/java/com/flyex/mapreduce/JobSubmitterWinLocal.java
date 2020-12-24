@@ -10,6 +10,9 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class JobSubmitterWinLocal {
     public static void main(String[] args) throws Exception {
+
+        //System.load("D:\\tool\\hadoop-2.8.1\\bin\\hadoop.dll");
+
         Configuration conf = new Configuration();
 
         Job job = Job.getInstance(conf);
@@ -25,12 +28,12 @@ public class JobSubmitterWinLocal {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
 
-        FileInputFormat.setInputPaths(job,new Path("D:\\hdpTest\\wordcount\\input"));
-        FileOutputFormat.setOutputPath(job,new Path("D:\\hdpTest\\wordcount\\output"));
+        FileInputFormat.setInputPaths(job,new Path("D:\\testData"));
+        FileOutputFormat.setOutputPath(job,new Path("D:\\hdfsDataNoUse"));
 
-        job.setNumReduceTasks(2);
+        job.setNumReduceTasks(1);
 
-        boolean res = job.waitForCompletion(true);
-        System.exit(res?0:-1);
+        job.waitForCompletion(true);
+
     }
 }
